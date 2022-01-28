@@ -1,0 +1,447 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do PolarFire_spi_slave_programmer_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module spi_xcvr
+# 
+# Top level modules:
+# 	spi_xcvr
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer
+# 
+# Top level modules:
+# 	programmer
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo {D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module buffer_fifo
+# 
+# Top level modules:
+# 	buffer_fifo
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench {D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer_tb
+# 
+# Top level modules:
+# 	programmer_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  programmer_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps programmer_tb 
+# Loading work.programmer_tb
+# Loading work.programmer
+# Loading work.spi_xcvr
+# Loading work.buffer_fifo
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(70): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(72): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(135): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(142): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(149): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(158): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(165): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(172): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(181): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(188): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(195): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# 
+# do D:/workspace/IAP_SPI_Slave/spi_slave_fw/simulation/modelsim/programmer_wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /programmer_tb/sys_clk
+# add wave -noupdate /programmer_tb/sys_nrst
+# add wave -noupdate /programmer_tb/fifo_empty
+# add wave -noupdate -radix hexadecimal /programmer_tb/fifo_rd_data
+# add wave -noupdate /programmer_tb/fifo_rd_en
+# add wave -noupdate /programmer_tb/command_reg
+# add wave -noupdate /programmer_tb/flag
+# add wave -noupdate /programmer_tb/cond
+# add wave -noupdate /programmer_tb/programmer_dut/start_program
+# add wave -noupdate /programmer_tb/program_done
+# add wave -noupdate /programmer_tb/verify_done
+# add wave -noupdate /programmer_tb/program_error
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_error
+# add wave -noupdate /programmer_tb/spi_violation_err
+# add wave -noupdate /programmer_tb/spi_process_err
+# add wave -noupdate /programmer_tb/SCK
+# add wave -noupdate /programmer_tb/MOSI
+# add wave -noupdate /programmer_tb/NSS
+# add wave -noupdate /programmer_tb/MISO
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_cmd
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_data
+# add wave -noupdate /programmer_tb/spi_cmd_val
+# add wave -noupdate /programmer_tb/spi_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_rd_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_req
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_done
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_enable
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_busy
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM_next
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM_next
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/calc_CRC
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/CRC_cnt
+# add wave -noupdate /programmer_tb/programmer_dut/step_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/block_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/byte_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/digest_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_num
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_size
+#add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/image_header_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/delay_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/program_buffer
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/fetch_buffer
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {495793 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 320
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {203316 ps} {1618088 ps}
+run -all
+# Break key hit 
+# Break in Module programmer in file D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v
+do PolarFire_spi_slave_programmer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module spi_xcvr
+# 
+# Top level modules:
+# 	spi_xcvr
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer
+# 
+# Top level modules:
+# 	programmer
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo {D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module buffer_fifo
+# 
+# Top level modules:
+# 	buffer_fifo
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench {D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer_tb
+# 
+# Top level modules:
+# 	programmer_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  programmer_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps programmer_tb 
+# Loading work.programmer_tb
+# Loading work.programmer
+# Loading work.spi_xcvr
+# Loading work.buffer_fifo
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(70): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(72): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(135): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(142): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(149): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(158): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(165): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(172): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(181): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(188): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(195): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# 
+# do D:/workspace/IAP_SPI_Slave/spi_slave_fw/simulation/modelsim/programmer_wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /programmer_tb/sys_clk
+# add wave -noupdate /programmer_tb/sys_nrst
+# add wave -noupdate /programmer_tb/fifo_empty
+# add wave -noupdate -radix hexadecimal /programmer_tb/fifo_rd_data
+# add wave -noupdate /programmer_tb/fifo_rd_en
+# add wave -noupdate /programmer_tb/command_reg
+# add wave -noupdate /programmer_tb/flag
+# add wave -noupdate /programmer_tb/cond
+# add wave -noupdate /programmer_tb/programmer_dut/start_program
+# add wave -noupdate /programmer_tb/program_done
+# add wave -noupdate /programmer_tb/verify_done
+# add wave -noupdate /programmer_tb/program_error
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_error
+# add wave -noupdate /programmer_tb/spi_violation_err
+# add wave -noupdate /programmer_tb/spi_process_err
+# add wave -noupdate /programmer_tb/SCK
+# add wave -noupdate /programmer_tb/MOSI
+# add wave -noupdate /programmer_tb/NSS
+# add wave -noupdate /programmer_tb/MISO
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_cmd
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_data
+# add wave -noupdate /programmer_tb/spi_cmd_val
+# add wave -noupdate /programmer_tb/spi_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_rd_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_req
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_done
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_enable
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_busy
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM_next
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM_next
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/calc_CRC
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/CRC_cnt
+# add wave -noupdate /programmer_tb/programmer_dut/step_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/block_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/byte_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/digest_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_num
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_size
+#add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/image_header_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/delay_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/program_buffer
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/fetch_buffer
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {495793 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 320
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {203316 ps} {1618088 ps}
+run -all
+# Break key hit 
+# Break in Module programmer at D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v line 150
+do PolarFire_spi_slave_programmer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module spi_xcvr
+# 
+# Top level modules:
+# 	spi_xcvr
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl {D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer
+# 
+# Top level modules:
+# 	programmer
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo {D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module buffer_fifo
+# 
+# Top level modules:
+# 	buffer_fifo
+# 
+# vlog -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench {D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module programmer_tb
+# 
+# Top level modules:
+# 	programmer_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  programmer_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps programmer_tb 
+# Loading work.programmer_tb
+# Loading work.programmer
+# Loading work.spi_xcvr
+# Loading work.buffer_fifo
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(70): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(72): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(136): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(143): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(150): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(159): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(166): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(173): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(182): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(189): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# ** Warning: (vsim-PLI-3691) D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v(196): Expected a system task, not a system function '$fread'.
+# 
+#         Region: /programmer_tb
+# 
+# do D:/workspace/IAP_SPI_Slave/spi_slave_fw/simulation/modelsim/programmer_wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /programmer_tb/sys_clk
+# add wave -noupdate /programmer_tb/sys_nrst
+# add wave -noupdate /programmer_tb/fifo_empty
+# add wave -noupdate -radix hexadecimal /programmer_tb/fifo_rd_data
+# add wave -noupdate /programmer_tb/fifo_rd_en
+# add wave -noupdate /programmer_tb/command_reg
+# add wave -noupdate /programmer_tb/flag
+# add wave -noupdate /programmer_tb/cond
+# add wave -noupdate /programmer_tb/programmer_dut/start_program
+# add wave -noupdate /programmer_tb/program_done
+# add wave -noupdate /programmer_tb/verify_done
+# add wave -noupdate /programmer_tb/program_error
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_error
+# add wave -noupdate /programmer_tb/spi_violation_err
+# add wave -noupdate /programmer_tb/spi_process_err
+# add wave -noupdate /programmer_tb/SCK
+# add wave -noupdate /programmer_tb/MOSI
+# add wave -noupdate /programmer_tb/NSS
+# add wave -noupdate /programmer_tb/MISO
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_cmd
+# add wave -noupdate -radix hexadecimal /programmer_tb/spi_data
+# add wave -noupdate /programmer_tb/spi_cmd_val
+# add wave -noupdate /programmer_tb/spi_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_rd_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_req
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_wr_data
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_done
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_enable
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/spi_busy
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/fetch_FSM_next
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM
+# add wave -noupdate /programmer_tb/programmer_dut/program_FSM_next
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/calc_CRC
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/CRC_cnt
+# add wave -noupdate /programmer_tb/programmer_dut/step_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/block_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/byte_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/digest_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_num
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/component_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_size
+#add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/image_header_size
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/fetch_cnt
+# add wave -noupdate -radix unsigned /programmer_tb/programmer_dut/delay_cnt
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/program_buffer
+# add wave -noupdate -radix hexadecimal /programmer_tb/programmer_dut/fetch_buffer
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {495793 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 320
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {203316 ps} {1618088 ps}
+run -all
+# Break in Module programmer_tb at D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v line 218

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\workspace\IAP_SPI_Slave\spi_slave_fw\simulation\modelsim
+vbuffer_fifo
+I:T=>IiOeMm0e1K7P<F^VO2
+VmcH?cS4@^JKKD`IFQ<SB?2
+Z1 dD:\workspace\IAP_SPI_Slave\spi_slave_fw\simulation\modelsim
+w1638796133
+8D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v
+FD:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 nzGDL0?iIf_<AGl4XbVEY2
+!s85 0
+!s108 1639496537.589000
+!s107 D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo|D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo/buffer_fifo.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/ip/buffer_fifo -O0
+vprogrammer
+IiFgG0<oiD^Y7k<n89^KV90
+VfbeQMUgmBT_PV<aOReOe20
+R1
+w1639496401
+8D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v
+FD:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v
+L0 39
+R2
+r1
+31
+R3
+Z4 !s92 -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl -O0
+!i10b 1
+!s100 P@S?W]7TLOedZi[]RAd193
+!s85 0
+!s108 1639496537.357000
+!s107 D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl|D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/programmer.v|
+!s101 -O0
+vprogrammer_tb
+!i10b 1
+!s100 4`z@]:f[>>b1J6FeGd?XZ1
+IOm:c^94F26Eh[0VY1X>0`3
+VgBkXVcokCAUTHzQF2Q:F<2
+R1
+w1639496533
+8D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v
+FD:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1639496537.714000
+!s107 D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench|D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench/programmer_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/testbench -O0
+vspi_xcvr
+IgezN7LVQ_A9Y9k_:?NTn`2
+VF=>c8z4hjBezS8JYi]3DW0
+R1
+w1639408932
+8D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v
+FD:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 R]mH3[4NRH4ZDmM^16Lh;2
+!s85 0
+!s108 1639496537.225000
+!s107 D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl|D:/workspace/IAP_SPI_Slave/spi_slave_fw/hdl/spi_xcvr.v|
+!s101 -O0

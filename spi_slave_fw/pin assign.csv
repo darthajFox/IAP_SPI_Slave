@@ -1,0 +1,89 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: D:\workspace\IAP SPI Master\IAP_KPA_fw\pin assign.csv
+# Generated on: Fri Dec 24 17:10:31 2021
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage
+BE[3],Bidir,PIN_E15,7A,B7A_N0,PIN_E15,,,,,,,,,,,,,
+BE[2],Bidir,PIN_G12,7A,B7A_N0,PIN_G12,,,,,,,,,,,,,
+BE[1],Bidir,PIN_F13,7A,B7A_N0,PIN_F13,,,,,,,,,,,,,
+BE[0],Bidir,PIN_F12,7A,B7A_N0,PIN_F12,,,,,,,,,,,,,
+DATA[31],Bidir,PIN_E12,7A,B7A_N0,PIN_E12,,,,,,,,,,,,,
+DATA[30],Bidir,PIN_D12,7A,B7A_N0,PIN_D12,,,,,,,,,,,,,
+DATA[29],Bidir,PIN_B11,7A,B7A_N0,PIN_B11,,,,,,,,,,,,,
+DATA[28],Bidir,PIN_C11,7A,B7A_N0,PIN_C11,,,,,,,,,,,,,
+DATA[27],Bidir,PIN_B12,7A,B7A_N0,PIN_B12,,,,,,,,,,,,,
+DATA[26],Bidir,PIN_A12,7A,B7A_N0,PIN_A12,,,,,,,,,,,,,
+DATA[25],Bidir,PIN_C13,7A,B7A_N0,PIN_C13,,,,,,,,,,,,,
+DATA[24],Bidir,PIN_B13,7A,B7A_N0,PIN_B13,,,,,,,,,,,,,
+DATA[23],Bidir,PIN_A13,7A,B7A_N0,PIN_A13,,,,,,,,,,,,,
+DATA[22],Bidir,PIN_D13,7A,B7A_N0,PIN_D13,,,,,,,,,,,,,
+DATA[21],Bidir,PIN_B15,7A,B7A_N0,PIN_B15,,,,,,,,,,,,,
+DATA[20],Bidir,PIN_A15,7A,B7A_N0,PIN_A15,,,,,,,,,,,,,
+DATA[19],Bidir,PIN_C15,7A,B7A_N0,PIN_C15,,,,,,,,,,,,,
+DATA[18],Bidir,PIN_B16,7A,B7A_N0,PIN_B16,,,,,,,,,,,,,
+DATA[17],Bidir,PIN_C16,7A,B7A_N0,PIN_C16,,,,,,,,,,,,,
+DATA[16],Bidir,PIN_D17,7A,B7A_N0,PIN_D17,,,,,,,,,,,,,
+DATA[15],Bidir,PIN_H18,7A,B7A_N0,PIN_H18,,,,,,,,,,,,,
+DATA[14],Bidir,PIN_H14,7A,B7A_N0,PIN_H14,,,,,,,,,,,,,
+DATA[13],Bidir,PIN_G15,7A,B7A_N0,PIN_G15,,,,,,,,,,,,,
+DATA[12],Bidir,PIN_H13,7A,B7A_N0,PIN_H13,,,,,,,,,,,,,
+DATA[11],Bidir,PIN_H11,7A,B7A_N0,PIN_H11,,,,,,,,,,,,,
+DATA[10],Bidir,PIN_J13,7A,B7A_N0,PIN_J13,,,,,,,,,,,,,
+DATA[9],Bidir,PIN_J11,7A,B7A_N0,PIN_J11,,,,,,,,,,,,,
+DATA[8],Bidir,PIN_K20,7A,B7A_N0,PIN_K20,,,,,,,,,,,,,
+DATA[7],Bidir,PIN_K19,7A,B7A_N0,PIN_K19,,,,,,,,,,,,,
+DATA[6],Bidir,PIN_J19,7A,B7A_N0,PIN_J19,,,,,,,,,,,,,
+DATA[5],Bidir,PIN_J17,7A,B7A_N0,PIN_J17,,,,,,,,,,,,,
+DATA[4],Bidir,PIN_J18,7A,B7A_N0,PIN_J18,,,,,,,,,,,,,
+DATA[3],Bidir,PIN_H10,7A,B7A_N0,PIN_H10,,,,,,,,,,,,,
+DATA[2],Bidir,PIN_K16,7A,B7A_N0,PIN_K16,,,,,,,,,,,,,
+DATA[1],Bidir,PIN_K9,7A,B7A_N0,PIN_K9,,,,,,,,,,,,,
+DATA[0],Bidir,PIN_L8,7A,B7A_N0,PIN_L8,,,,,,,,,,,,,
+LED[7],Output,PIN_W8,3A,B3A_N0,PIN_W8,,,,,,,,,,,,,
+LED[6],Output,PIN_W9,3A,B3A_N0,PIN_W9,,,,,,,,,,,,,
+LED[5],Output,PIN_U8,3A,B3A_N0,PIN_U8,,,,,,,,,,,,,
+LED[4],Output,PIN_U7,3A,B3A_N0,PIN_U7,,,,,,,,,,,,,
+LED[3],Output,PIN_R6,3A,B3A_N0,PIN_R6,,,,,,,,,,,,,
+LED[2],Output,PIN_R5,3A,B3A_N0,PIN_R5,,,,,,,,,,,,,
+LED[1],Output,PIN_P6,3A,B3A_N0,PIN_P6,,,,,,,,,,,,,
+LED[0],Output,PIN_N6,3A,B3A_N0,PIN_N6,,,,,,,,,,,,,
+MISO,Output,PIN_Y3,2A,B2A_N0,PIN_Y3,,,,,,,,,,,,,
+MOSI,Input,PIN_AA1,2A,B2A_N0,PIN_AA1,,,,,,,,,,,,,
+OE_N,Output,PIN_E16,7A,B7A_N0,PIN_E16,,,,,,,,,,,,,
+RD_N,Output,PIN_G11,7A,B7A_N0,PIN_G11,,,,,,,,,,,,,
+RXF_N,Input,PIN_G13,7A,B7A_N0,PIN_G13,,,,,,,,,,,,,
+SCK,Input,PIN_AA2,2A,B2A_N0,PIN_AA2,,,,,,,,,,,,,
+TXE_N,Input,PIN_F14,7A,B7A_N0,PIN_F14,,,,,,,,,,,,,
+WR_N,Output,PIN_F15,7A,B7A_N0,PIN_F15,,,,,,,,,,,,,
+clk100_in,Input,PIN_H16,7A,B7A_N0,PIN_H16,,,,,,,,,,,,,
+debug_MOSI,Output,PIN_U1,2A,B2A_N0,PIN_U1,,,,,,,,,,,,,
+debug_SCK,Output,PIN_U2,2A,B2A_N0,PIN_U2,,,,,,,,,,,,,
+debug_io[9],Output,,,,PIN_R9,,,,,,,,,,,,,
+debug_io[8],Output,PIN_N1,2A,B2A_N0,PIN_N1,,,,,,,,,,,,,
+debug_io[7],Output,PIN_L2,2A,B2A_N0,PIN_L2,,,,,,,,,,,,,
+debug_io[6],Output,PIN_L1,2A,B2A_N0,PIN_L1,,,,,,,,,,,,,
+debug_io[5],Output,PIN_D3,2A,B2A_N0,PIN_D3,,,,,,,,,,,,,
+debug_io[4],Output,PIN_E2,2A,B2A_N0,PIN_E2,,,,,,,,,,,,,
+debug_io[3],Output,PIN_G2,2A,B2A_N0,PIN_G2,,,,,,,,,,,,,
+debug_io[2],Output,PIN_G1,2A,B2A_N0,PIN_G1,,,,,,,,,,,,,
+debug_io[1],Output,PIN_C2,2A,B2A_N0,PIN_C2,,,,,,,,,,,,,
+debug_io[0],Output,PIN_C1,2A,B2A_N0,PIN_C1,,,,,,,,,,,,,
+debug_nCS,Output,PIN_N2,2A,B2A_N0,PIN_N2,,,,,,,,,,,,,
+nCS,Input,PIN_W2,2A,B2A_N0,PIN_W2,,,,,,,,,,,,,
+nrst_in,Input,PIN_G17,7A,B7A_N0,PIN_G17,,,,,,,,,,,,,
