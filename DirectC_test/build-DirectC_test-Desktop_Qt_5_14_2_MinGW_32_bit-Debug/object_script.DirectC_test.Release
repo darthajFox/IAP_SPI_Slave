@@ -1,0 +1,16 @@
+release/dpG4alg.o
+release/dpG4spi.o
+release/dpG5alg.o
+release/dpG5spi.o
+release/dpDUTspi.o
+release/dpalg.o
+release/dpcom.o
+release/dputil.o
+release/actionthread.o
+release/logger.o
+release/main.o
+release/mainwindow.o
+release/spi.o
+release/moc_actionthread.o
+release/moc_logger.o
+release/moc_mainwindow.o

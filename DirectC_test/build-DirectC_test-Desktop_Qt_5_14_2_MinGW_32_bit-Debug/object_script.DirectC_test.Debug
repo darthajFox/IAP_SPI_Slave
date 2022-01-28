@@ -1,0 +1,16 @@
+debug/dpG4alg.o
+debug/dpG4spi.o
+debug/dpG5alg.o
+debug/dpG5spi.o
+debug/dpDUTspi.o
+debug/dpalg.o
+debug/dpcom.o
+debug/dputil.o
+debug/actionthread.o
+debug/logger.o
+debug/main.o
+debug/mainwindow.o
+debug/spi.o
+debug/moc_actionthread.o
+debug/moc_logger.o
+debug/moc_mainwindow.o
